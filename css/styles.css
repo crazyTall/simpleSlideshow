@@ -1,0 +1,32 @@
+/** Styles .css **/
+
+
+/** General Styles **/
+	body {
+		background-color:#cfcfcf;
+	}
+	#container {
+		background-color: #fff;
+		margin: 0 auto;
+		width: 960px;
+		padding: 1.5%;
+	}
+	#container .innerContainer {
+		border-bottom:2px dashed #ccc;
+		padding:3% 0;
+	}
+
+/** SlideShow Styles **/
+	#photosSlide img,
+	#photosRotate img {
+		position: absolute;
+	}
+	#photosSlide,
+	#photosRotate {
+		width: 180px;
+		height: 180px;
+		overflow: hidden;
+	}
+
+
+
